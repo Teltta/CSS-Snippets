@@ -20,3 +20,13 @@ Highlights replies even if the person replying turned of mentioning.
 Remove stuff regarding Super Reactions and adds a background to them.
 
 <img src="./images/RemoveSuperReactions/RemoveSuperReactions.gif">
+
+## [VcHideNames](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/VcHideNames.css "VcHideNames")
+Hides names of people in vc and adds a red circle if the person is streaming.
+
+<img src="./images/VcHideNames/VcHideNames.png">
+
+## [BlurNsfwImages](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BlurNsfwImages.css "BlurNsfwImages")
+Blurs images, gifs and videos in NSFW channels.
+
+<img src="./images/BlurNsfwImages/BlurNsfwImages.gif">

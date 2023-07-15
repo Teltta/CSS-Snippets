@@ -1,0 +1,39 @@
+[class^="list-"] [class^="voiceUser-"] [class^="usernameFont-"],
+[class^="list-"] [class^="voiceUser-"] [class^="icons-"] {
+  display: none;
+}
+[class^="list-"] [class^="voiceUser-"] [class^="userAvatar-"] {
+  border: 3px solid var(--background-secondary);
+}
+/* red border on live users */
+[class^="list-"] [class^="voiceUser-"]:has([class^="live-"]) [class^="userAvatar-"] {
+  border-color: var(--red-400);
+}
+[class^="list-"] [class*="voiceUser-"] > [class^="content-"],
+[class^="list-"] > [class^="draggable-"] > [class*="voiceUser-"] {
+  display: flex;
+  justify-content: center;
+  margin: -1px -4px -4px 0px;
+  width: 24px;
+  padding: 0px;
+  background-color: transparent !important;
+}
+[class^="list-"]:has([class*="voiceUser-"]) {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* "live" tag */
+[class^="containerDefault-"]:has([class*="voiceUser-"] [class^="live-"]) > :not(*:first-child:hover) [class^="linkTop-"] > [class^="children-"]::before {
+  position: relative;
+  content: "LIVE";
+  background-color: var(--red-400);
+  padding: 0 6px;
+  color: var(--white-500);
+  border-radius: 8px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
