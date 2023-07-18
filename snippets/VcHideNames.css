@@ -37,3 +37,7 @@
   font-weight: 700;
   letter-spacing: .02em;
 }
+/* Move stream previews further to the right */
+[class*="layer-"]:has(>[class^="animatorRight-"]>[class^="streamPreviewWrapper-"]) {
+  margin-left: 6px;
+}

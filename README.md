@@ -30,3 +30,8 @@ Hides names of people in vc and adds a red circle if the person is streaming.
 Blurs images, gifs and videos in NSFW channels.
 
 <img src="./images/BlurNsfwImages/BlurNsfwImages.gif">
+
+## [BetterSearch](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BetterSearch.css "BetterSearch")
+Makes controls stick to the top, allows for custom widths and makes every other message different color.
+
+<img src="./images/BetterSearch/BetterSearch.gif">
