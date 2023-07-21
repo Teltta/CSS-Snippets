@@ -1,10 +1,11 @@
 #app-mount > [class*="titleBar-"] {position: fixed;left: 0;margin-top: 0px;width: 60px;height: 34px;direction: var(--titlebar-button-direction, rtl);padding-left: var(--titlebar-spacing-left, 10px); background: transparent !important;}
 #app-mount > [class*="titleBar-"] > [class*="wordmark-"] {display: none;}
-#app-mount > [class*="titleBar-"] > * {margin: var(--titlebar-spacing-top, 12px) var(--titlebar-button-gap, 8px) 0px 0px;}
+#app-mount > [class*="titleBar-"] > * {margin: 0px var(--titlebar-button-gap, 8px) 0px 0px;}
 [class^="tree-"][data-list-id="guildsnav"] > div[class^="scroller-"] {padding-top: 0px !important;}
+[class^="tree-"][data-list-id="guildsnav"] > [class^="unreadMentionsIndicatorTop-"] > [class*="unread-"] {display: none;}
 [class^="wrapper-"][class*="guilds-"]:has([class^="tree-"][data-list-id="guildsnav"]) {margin-top: 35px !important; padding-top: 0px;}
 [class*="titleBar-"] > [class*="winButton-"] > svg {display: none;}
-[class*="titleBar-"] > [class*="winButton-"] {top: 0;width: 12px;height: 12px;margin: 2px 12px 0px 0px;border-radius: 25px;}
+[class*="titleBar-"] > [class*="winButton-"] {top: var(--titlebar-spacing-top, 12px);width: 12px;height: 12px;border-radius: 25px;}
 [class*="titleBar-"] > [class*="winButton-"]::after {content: '';height: 12px;width: 12px;border-radius: 25px;}
 [class*="titleBar-"] > [class^="winButtonClose-"]::after {background-color: #fc655a !important;}
 [class*="titleBar-"] > [class^="winButtonMinMax-"]:not(:last-child)::after {background-color: #f2c33f !important;}
