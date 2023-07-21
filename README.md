@@ -35,3 +35,13 @@ Blurs images, gifs and videos in NSFW channels.
 Makes controls stick to the top, allows for custom widths and makes every other message different color.
 
 <img src="./images/BetterSearch/BetterSearch.gif">
+
+## [MacTitlebar](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/MacTitlebar.css "MacTitlebar")
+MacOS titlebar... but on Windows 🤯
+### Variables
+`--titlebar-button-gap` | Default: `8px` <br />
+`--titlebar-spacing-left` | Default: `10px` <br />
+`--titlebar-button-direction` | Default: `rtl` | Options: `rtl` or `ltr`<br />
+`--titlebar-button-opacity-hover` | Default: `1` | Options: `0-1`
+
+<img src="./images/MacTitlebar/MacTitlebar.png">
