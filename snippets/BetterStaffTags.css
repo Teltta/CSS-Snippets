@@ -1,0 +1,10 @@
+[class^="member-"] [class^="nameAndDecorators-"]:has([class^="botTag-"] > [class^="botTagVerified-"]) > .stafftag::before,
+[class^="message-"] [id^="message-username-"]:has([class*="botTag-"] > [class^="botTagVerified-"]) > .stafftag::before {content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' viewBox='0 0 16 7' fill='white'><path d='M7.4,11.17,4,8.62,5,7.26l2,1.53L10.64,4l1.36,1Z' /></svg>") "BOT " var(--tag-seperator, "●") "  ";position: relative;bottom: 4.5px;height: 15px !important;}
+[class^="member-"] [class^="nameAndDecorators-"]:has([class^="botTag-"] > [class^="botTagVerified-"]) > .stafftag,
+[class^="message-"] [id^="message-username-"]:has([class*="botTag-"] > [class^="botTagVerified-"]) > .stafftag {padding-left: 0px;}
+[class^="member-"] [class^="nameAndDecorators-"]:has([class^="botTag-"]:not(.stafftag)):not(:has([class^="botTagVerified-"])) > .stafftag::before,
+[class^="message-"] [id^="message-username-"]:has([class*="botTag-"]:not(.stafftag)):not(:has([class^="botTagVerified-"])) > .stafftag::before {content: "BOT " var(--tag-seperator, "●") "  ";position: relative;top: 0px !important;}
+[class^="member-"] [class^="nameAndDecorators-"]:has(.stafftag) > [class^="botTag-"]:not(.stafftag),
+[class^="message-"] [id^="message-username-"]:has(.stafftag) > [class*="botTag-"]:not(.stafftag) {display: none !important;}
+[class^="member-"] [class^="nameAndDecorators-"]:has([class^="botTag-"]:not(.stafftag)) > .stafftag,
+[class^="message-"] [id^="message-username-"]:has([class*="botTag-"]:not(.stafftag)) > .stafftag {color: var(--white-500) !important;background-color: var(--brand-experiment) !important;}

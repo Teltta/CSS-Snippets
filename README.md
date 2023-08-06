@@ -1,6 +1,6 @@
 # CSS-Snippets
 ### Info
-A collection of CSS snippets made for 3rd party Discord clients to "improve" user experience.
+A collection of CSS snippets made for 3rd party Discord clients (mainly Replugged).
 If there's an issue with a snippet or you have a request for a snippet, open an issue on this repo.
 
 ## [NsfwTags](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/NsfwTags.css "NsfwTags")
@@ -46,3 +46,12 @@ MacOS titlebar... but on Windows 🤯
 `--titlebar-button-opacity-hover` | Default: `1` | Options: `0-1`
 
 <img src="./images/MacTitlebar/MacTitlebar.png">
+
+## [BetterStaffTags](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BetterStaffTags.css "BetterStaffTags")
+Combines bot tags with staff tags. <br />
+**Requires [Stafftags](https://replugged.dev/install?identifier=me.puyodead1.StaffTags) by Puyodead1**
+
+### Variables
+`--tag-seperator` | Default: `"●"`
+
+<img src="./images/BetterStaffTags/BetterStaffTags.png">
