@@ -3,6 +3,8 @@
 A collection of CSS snippets made for 3rd party Discord clients (mainly Replugged).
 If there's an issue with a snippet or you have a request for a snippet, open an issue on this repo.
 
+Alternatively you can use the snippets in [`snippets-no-wildcard`](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard "snippets-no-wildcard"), which use minimal wildcards to increase performance but might not work in the future if Discord decides to change class names.
+
 ## [NsfwTags](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/NsfwTags.css "NsfwTags")
 Add NSFW tags to channel titles and channel list.
 

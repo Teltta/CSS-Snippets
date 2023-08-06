@@ -1,0 +1,14 @@
+.message-2CShn3.hasReply-2Cr4KE:not(:has(.avatar-2e8lTP[src*="user-id"])):has(.replyAvatar-sHd2sU[src*="user-id"]) {
+    background-color: var(--background-mentioned);
+}
+.message-2CShn3.hasReply-2Cr4KE:not(:has(.avatar-2e8lTP[src*="user-id"])):has(.replyAvatar-sHd2sU[src*="user-id"])::before {
+    background-color: var(--info-warning-forebround) !important;
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    width: 2px;
+}
