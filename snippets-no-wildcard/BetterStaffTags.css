@@ -1,0 +1,10 @@
+.nameAndDecorators-3ERwy2:has(.botTag-2mryIa > .botTagVerified-2KCPMa) > .stafftag::before,
+.message-2CShn3 [id^="message-username-"]:has(.botTag-1NoD0B > .botTagVerified-2KCPMa) > .stafftag::before {content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' viewBox='0 0 16 7' fill='white'><path d='M7.4,11.17,4,8.62,5,7.26l2,1.53L10.64,4l1.36,1Z' /></svg>") "BOT " var(--tag-seperator, "●") "  ";position: relative;bottom: 4.5px;height: 15px !important;}
+.nameAndDecorators-3ERwy2:has(.botTag-2mryIa > .botTagVerified-2KCPMa) > .stafftag,
+.message-2CShn3 [id^="message-username-"]:has(.botTag-1NoD0B > .botTagVerified-2KCPMa) > .stafftag {padding-left: 0px;}
+.nameAndDecorators-3ERwy2:has(.botTag-2mryIa:not(.stafftag)):not(:has(.botTagVerified-2KCPMa)) > .stafftag::before,
+.message-2CShn3 [id^="message-username-"]:has(.botTag-1NoD0B:not(.stafftag)):not(:has(.botTagVerified-2KCPMa)) > .stafftag::before {content: "BOT " var(--tag-seperator, "●") "  ";position: relative;top: 0px !important;}
+.nameAndDecorators-3ERwy2:has(.stafftag) > .botTag-2mryIa:not(.stafftag),
+.message-2CShn3 [id^="message-username-"]:has(.stafftag) > .botTag-1NoD0B:not(.stafftag) {display: none !important;}
+.nameAndDecorators-3ERwy2:has(.botTag-2mryIa:not(.stafftag)) > .stafftag,
+.message-2CShn3 [id^="message-username-"]:has(.botTag-1NoD0B:not(.stafftag)) > .stafftag {color: var(--white-500) !important;background-color: var(--brand-experiment) !important;}

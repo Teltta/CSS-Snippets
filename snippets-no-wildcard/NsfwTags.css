@@ -1,0 +1,14 @@
+.chat-2ZfjoI>.title-31SJ6t:has(.icon-2xnN2Y>path[d^="M19.8914"]) .titleWrapper-24Kyzc>.title-17SveM::before,
+.containerDefault-YUSmu3:has(.icon-2W8DHg>path[d^="M19.891"]):not(:hover, .selected-2TbFuo) .linkTop-1W1aK6>.children-1MGS9G::before {
+  position: relative;
+  content: "NSFW";
+  background-color: var(--red-400);
+  padding: 0 6px;
+  color: var(--white-500);
+  border-radius: 8px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: .02em;
+}

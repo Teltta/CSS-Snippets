@@ -1,0 +1,14 @@
+#app-mount > .titleBar-1it3bQ {position: fixed;left: 0;margin-top: 0px;width: 60px;height: 34px;direction: var(--titlebar-button-direction, rtl);padding-left: var(--titlebar-spacing-left, 10px); background: transparent !important;}
+.titleBar-1it3bQ > .wordmark-2u86JB {display: none;}
+#app-mount > .titleBar-1it3bQ > * {margin: 0px var(--titlebar-button-gap, 8px) 0px 0px;}
+.tree-3agP2X > div.scroller-3X7KbA {padding-top: 0px !important;}
+.tree-3agP2X > .unreadMentionsIndicatorTop-2bTgUU > .unread-2wipsx {display: none;}
+.wrapper-1_HaEi.guilds-2JjMmN:has(.tree-3agP2X) {margin-top: 35px !important; padding-top: 0px;}
+.titleBar-1it3bQ > .winButton-3UMjdg > svg {display: none;}
+.titleBar-1it3bQ > .winButton-3UMjdg {top: var(--titlebar-spacing-top, 12px);width: 12px;height: 12px;border-radius: 25px;}
+.titleBar-1it3bQ > .winButton-3UMjdg::after {content: '';height: 12px;width: 12px;border-radius: 25px;}
+.titleBar-1it3bQ > .winButtonClose-3Q8ZH5::after {background-color: #fc655a !important;}
+.titleBar-1it3bQ > .winButtonMinMax-3RsPUg:not(:last-child)::after {background-color: #f2c33f !important;}
+.titleBar-1it3bQ > .winButtonMinMax-3RsPUg:last-child::after {background-color: #34c34f !important;}
+.titleBar-1it3bQ > .winButton-3UMjdg:hover::after {transform: scale(1.1); opacity: var(--titlebar-button-opacity-hover, 1)}
+.titleBar-1it3bQ > .winButton-3UMjdg:active::after {transform: scale(1);}
