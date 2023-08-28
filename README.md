@@ -57,3 +57,8 @@ Combines bot tags with staff tags. <br />
 `--tag-seperator` | Default: `"●"`
 
 <img src="./images/BetterStaffTags/BetterStaffTags.png">
+
+## [CenteredUserPopouts](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard/CenteredUserPopouts.css "CenteredUserPopouts")
+Centers content in user popouts to the middle.
+
+<img src="./images/CenteredUserPopouts/CenteredUserPopouts.png">
