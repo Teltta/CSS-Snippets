@@ -63,7 +63,7 @@ Centers content in user popouts to the middle.
 
 <img src="./images/CenteredUserPopouts/CenteredUserPopouts.png">
 
-## [● RemoveUserBanners](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard/RemoveUserBanner.css "RemoveUserBanners")
+## [● RemoveUserBanners](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard/RemoveUserBanners.css "RemoveUserBanners")
 Removes all user banners.
 
 <img src="./images/RemoveUserBanners/RemoveUserBanners.png">
