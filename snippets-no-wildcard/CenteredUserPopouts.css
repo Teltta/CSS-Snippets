@@ -11,5 +11,7 @@
 .messageInputContainer-24qqTx > .messageInput-1enlaJ {text-align: center;}
 .userPopoutOverlayBackground-3A0Pcz .activity-3uaYny > .body-u1Y8uL {flex-direction: column;}
 .userPopoutOverlayBackground-3A0Pcz .activity-3uaYny .headerContainer-1wJjOa {justify-content: center;}
-.userPopoutOverlayBackground-3A0Pcz .activity-3uaYny .assets-3PQvAh {left: calc(50% - 20px);}
+.userPopoutOverlayBackground-3A0Pcz .activity-3uaYny .assets-3PQvAh:not(:has(.assetsLargeImage-8U5dlz)) {left: calc(50% - 20px);}
+.userPopoutOverlayBackground-3A0Pcz .activity-3uaYny .assets-3PQvAh:has(.assetsLargeImage-8U5dlz) {left: calc(50% - 30px);}
 .userPopoutOverlayBackground-3A0Pcz .activity-3uaYny .content-tXPNDw {margin: 0;}
+.timeBarUserPopoutV2-32DL06 {text-align: initial !important;}

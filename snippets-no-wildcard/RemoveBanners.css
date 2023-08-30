@@ -1,0 +1,14 @@
+/* make color banners invisible */
+.popoutBanner-3cqRD9,
+.settingsBanner-1eDJ5w,
+.popoutNoBannerPremium-25mwJy,
+.profileBanner-1owKI5 {background-color: transparent !important;}
+/* remove premium banners */
+.popoutBannerPremium-3i5EEI,
+.profileBannerPremium-KD60EB {display: none !important;}
+.bannerSVGWrapper-2CLfzN:has(.popoutBannerPremium-3i5EEI, .popoutNoBannerPremium-25mwJy) {height: 60px !important;min-height: unset !important;}
+.bannerSVGWrapper-2CLfzN:has(.profileBannerPremium-KD60EB) {height: 106px !important;min-height: unset !important;}
+.avatarPositionPremiumBanner-2EAbSH, .avatarPositionPremiumNoBanner-2u3xDC {top: 20px;}
+.bannerSVGWrapper-2CLfzN:has(.profileBannerPremium-KD60EB) ~ .header-S26rhB .avatar-3QF_VA {top: -68px;}
+.popoutBannerPremium-3i5EEI > div,
+.profileBannerPremium-KD60EB > div{display: none;}

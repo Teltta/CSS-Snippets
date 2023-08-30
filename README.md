@@ -5,40 +5,40 @@ If there's an issue with a snippet or you have a request for a snippet, open an 
 
 Alternatively you can use the snippets in [`snippets-no-wildcard`](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard "snippets-no-wildcard"), which use minimal wildcards to increase performance but might not work in the future if Discord decides to change class names.
 
-## [NsfwTags](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/NsfwTags.css "NsfwTags")
+## [● NsfwTags](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/NsfwTags.css "NsfwTags")
 Add NSFW tags to channel titles and channel list.
 
 <img src="./images/NsfwTags/NsfwTagsChannels.png">
 <img src="./images/NsfwTags/NsfwTagsChannelTitle.png">
 
-## [HighlightReplies](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/HighlightReplies.css "HighlightReplies")
+## [● HighlightReplies](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/HighlightReplies.css "HighlightReplies")
 Highlights replies even if the person replying turned of mentioning.
 
 **Note**: You'll have to replace the 4 `user-id`'s with your Discord ID for the snippet to work.
 
 <img src="./images/HighlightReplies/HighlightReplies.png">
 
-## [RemoveSuperReactions](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/RemoveSuperReactions.css "RemoveSuperReactions")
+## [● RemoveSuperReactions](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/RemoveSuperReactions.css "RemoveSuperReactions")
 Remove stuff regarding Super Reactions and adds a background to them.
 
 <img src="./images/RemoveSuperReactions/RemoveSuperReactions.gif">
 
-## [VcHideNames](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/VcHideNames.css "VcHideNames")
+## [● VcHideNames](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/VcHideNames.css "VcHideNames")
 Hides names of people in vc and adds a red circle if the person is streaming.
 
 <img src="./images/VcHideNames/VcHideNames.png">
 
-## [BlurNsfwImages](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BlurNsfwImages.css "BlurNsfwImages")
+## [● BlurNsfwImages](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BlurNsfwImages.css "BlurNsfwImages")
 Blurs images, gifs and videos in NSFW channels.
 
 <img src="./images/BlurNsfwImages/BlurNsfwImages.gif">
 
-## [BetterSearch](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BetterSearch.css "BetterSearch")
+## [● BetterSearch](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BetterSearch.css "BetterSearch")
 Makes controls stick to the top, allows for custom widths and makes every other message different color.
 
 <img src="./images/BetterSearch/BetterSearch.gif">
 
-## [MacTitlebar](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/MacTitlebar.css "MacTitlebar")
+## [● MacTitlebar](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/MacTitlebar.css "MacTitlebar")
 MacOS titlebar... but on Windows 🤯
 ### Variables
 `--titlebar-spacing-left` | Default: `10px` <br />
@@ -49,7 +49,7 @@ MacOS titlebar... but on Windows 🤯
 
 <img src="./images/MacTitlebar/MacTitlebar.png">
 
-## [BetterStaffTags](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BetterStaffTags.css "BetterStaffTags")
+## [● BetterStaffTags](https://github.com/Teltta/CSS-Snippets/tree/main/snippets/BetterStaffTags.css "BetterStaffTags")
 Combines bot tags with staff tags. <br />
 **Requires [Stafftags](https://replugged.dev/install?identifier=me.puyodead1.StaffTags) by Puyodead1**
 
@@ -58,7 +58,12 @@ Combines bot tags with staff tags. <br />
 
 <img src="./images/BetterStaffTags/BetterStaffTags.png">
 
-## [CenteredUserPopouts](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard/CenteredUserPopouts.css "CenteredUserPopouts")
+## [● CenteredUserPopouts](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard/CenteredUserPopouts.css "CenteredUserPopouts")
 Centers content in user popouts to the middle.
 
 <img src="./images/CenteredUserPopouts/CenteredUserPopouts.png">
+
+## [● RemoveUserBanners](https://github.com/Teltta/CSS-Snippets/tree/main/snippets-no-wildcard/RemoveUserBanner.css "RemoveUserBanners")
+Removes all user banners.
+
+<img src="./images/RemoveUserBanners/RemoveUserBanners.png">
