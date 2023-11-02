@@ -1,7 +1,7 @@
-[class^="chat-"]>section[class^="title-"]:has([class^="icon-"]>path[d^="M19.8914"]) [class^="titleWrapper-"]>[class*="title-"]::after, /* Channel header */
-[class^="containerDefault-"]:has([class^="icon-"]>path[d^="M19.8914"]):not(:hover,[class*="selected-"]) [class^="linkTop-"]>[class^="children-"]::after, /* Channel list */
-[class^="container-"]>section:has([class^="icon-"]>path[d^="M19.8914"]) [class^="titleWrapper-"]>[class*="title-"]::after, /* Channel Browser list */
-[class^="browser-"] [class^="channelName-"]:has([class^="icon-"]>path[d^="M19.8914"])::after /* Channel preview header */ {
+[class^="chat_"]>section[class^="title_"]:has([class^="icon_"]>path[d^="M19.8914"]) [class^="titleWrapper_"]>[class*="title_"]::after, /* Channel header */
+[class^="containerDefault_"]:has([class^="icon_"]>path[d^="M19.8914"]):not(:hover,[class*="selected_"]) [class^="linkTop_"]>[class^="children_"]::after, /* Channel list */
+[class^="container_"]>section:has([class^="icon_"]>path[d^="M19.8914"]) [class^="titleWrapper_"]>[class*="title_"]::after, /* Channel Browser list */
+[class^="browser_"] [class^="channelName_"]:has([class^="icon_"]>path[d^="M19.8914"])::after /* Channel preview header */ {
     content: "NSFW";
     position: relative;
     margin-left: 10px;
