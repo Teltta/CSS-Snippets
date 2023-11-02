@@ -1,14 +1,17 @@
-[class^="chat-"]>section[class^="title-"]:has([class^="icon-"]>path[d^="M19.8914"]) [class^="titleWrapper-"]>[class*="title-"]::before,
-[class^="containerDefault-"]:has([class^="icon-"]>path[d^="M19.891"]):not(:hover, [class*="selected-"]) [class^="linkTop-"]>[class^="children-"]::before {
-    position: relative;
+[class^="chat_"]>section[class^="title_"]:has([class^="icon_"]>path[d^="M19.8914"]) [class^="titleWrapper_"]>[class*="title_"]::after, /* Channel header */
+[class^="containerDefault_"]:has([class^="icon_"]>path[d^="M19.8914"]):not(:hover,[class*="selected_"]) [class^="linkTop_"]>[class^="children_"]::after, /* Channel list */
+[class^="container_"]>section:has([class^="icon_"]>path[d^="M19.8914"]) [class^="titleWrapper_"]>[class*="title_"]::after, /* Channel Browser list */
+[class^="browser_"] [class^="channelName_"]:has([class^="icon_"]>path[d^="M19.8914"])::after /* Channel preview header */ {
     content: "NSFW";
-    background-color: var(--red-400);
+    position: relative;
+    margin-left: 10px;
     padding: 0 6px;
-    color: var(--white-500);
+    background-color: var(--red-400);
     border-radius: 8px;
-    font-family: var(--font-display);
     font-size: 12px;
-    line-height: 16px;
+    font-family: var(--font-display);
     font-weight: 600;
+    line-height: 16px;
+    color: var(--white-500);
     letter-spacing: .02em;
 }
