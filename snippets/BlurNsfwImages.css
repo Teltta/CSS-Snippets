@@ -1,4 +1,4 @@
-[class*="base-"]:has([class*="selected-"][class*="containerDefault-"] [class^="icon-"]>path[d^="M19.8914"]) [class*="chat-"] [class*="imageWrapper-"]:not(:hover, :has([class^="wrapperControlsHidden-"]), :has([class^="wrapperPlaying-"])) > *,
-[class*="base-"]:has([class*="containerDefault-"] [class*="modeSelected-"] [class^="icon-"]>path[d^="M19.8916"]) [class*="chat-"] [class*="imageWrapper-"]:not(:hover, :has([class^="wrapperControlsHidden-"]), :has([class^="wrapperPlaying-"])) > * {
+[class*="base_"]:has([class*="selected_"][class*="containerDefault_"] [class^="icon_"]>path[d^="M18.09"]) [class*="chat_"] [class*="imageWrapper_"]:not(:hover, :has([class^="wrapperControlsHidden_"]), :has([class^="wrapperPlaying_"])) > *,
+[class*="base_"]:has([class*="containerDefault_"] [class*="modeSelected_"] [class^="icon_"]>path[d^="M18.09"]) [class*="chat_"] [class*="imageWrapper_"]:not(:hover, :has([class^="wrapperControlsHidden_"]), :has([class^="wrapperPlaying_"])) > * {
   filter: blur(20px) !important;
 }

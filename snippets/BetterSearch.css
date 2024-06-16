@@ -1,55 +1,55 @@
 :root {
 --search-width: 418px; /* default: 418px */
---search-controls-height: 126px; /* default: 126px */
+--search-controls-height: 104px; /* default: 104px */
 --search-controls-additional-width: 0px; /* default: 0px */
 --search-even-result-bg: var(--background-modifier-accent); /* default: --background-modifier-accent | --background-primary*/
 }
 
 
-[class^="searchResultsWrap-"] {
+[class^="searchResultsWrap_"] {
     width: var(--search-width, 418px) !important;
     max-width: 1800px;
     min-width: 300px;
 }
-[class^="searchResultsWrap-"] > header > [class^="searchHeaderTabList-"] {
+[class^="searchResultsWrap_"] > header > [class^="searchHeaderTabList_"] {
     flex: 0;
 }
-[class^="searchResultsWrap-"] #search-results > [class^="searchResultGroup-"] > [class^="container-"]:nth-child(even) > [class^="searchResult-"] {
+[class^="searchResultsWrap_"] #search-results > [class^="searchResultGroup_"] > [class^="container_"]:nth-child(even) > [class^="searchResult_"] {
     background: var(--search-even-result-bg, var(--background-modifier-accent));
 }
-[class^="searchResultsWrap-"] #search-results {
+[class^="searchResultsWrap_"] #search-results {
     margin-top: 50px;
 }
-[class^="searchResultsWrap-"] > [class^="scroller-"]:has(> [class^="resultsBlocked-"]) > #search-results {
+[class^="searchResultsWrap_"] > [class^="scroller_"]:has(> [class^="resultsBlocked_"]) > #search-results {
     margin-top: 80px;
 }
-[class^="searchResultsWrap-"] > [class^="scroller-"] > [class^="resultsBlocked-"] {
+[class^="searchResultsWrap_"] > [class^="scroller_"] > [class^="resultsBlocked_"] {
     z-index: 100;
     position: fixed;
-    top: calc(var(--search-controls-height, 126px) + 50px);
+    top: calc(var(--search-controls-height, 104px) + 50px);
     border: none;
     width: calc((var(--search-width, 418px) - 65px) + var(--search-controls-additional-width, 0px));
     background-color: var(--background-secondary) !important;
 }
-[class^="searchResultsWrap-"] > [class^="scroller-"] > [class^="resultsBlocked-"] > *:first-child {
+[class^="searchResultsWrap_"] > [class^="scroller_"] > [class^="resultsBlocked_"] > *:first-child {
     margin-left: calc(50% - (min(350px, var(--search-width, 418px)) / 2));
 }
-[class^="searchResultsWrap-"] > [class^="scroller-"] > [class^="resultsBlocked-"] > * {
+[class^="searchResultsWrap_"] > [class^="scroller_"] > [class^="resultsBlocked_"] > * {
     color: var(--header-primary);
 }
-[class^="searchResultsWrap-"] > [class^="scroller-"] > [class^="container-"] {
+[class^="searchResultsWrap_"] > [class^="scroller_"] > [class^="container_"] {
     z-index: 100;
     position: fixed;
-    top: var(--search-controls-height, 126px);
+    top: var(--search-controls-height, 104px);
     background-color: var(--background-secondary) !important;
     width: calc((var(--search-width, 418px) - 30px) + var(--search-controls-additional-width, 0px));
 }
-[class^="searchResultsWrap-"] > [class^="scroller-"] > [class^="container-"] > div > nav {
+[class^="searchResultsWrap_"] > [class^="scroller_"] > [class^="container_"] > div > nav {
     height: 32px;
     width: min(350px, var(--search-width, 418px));
     margin-left: calc(50% - (min(350px, var(--search-width, 418px)) / 2));
 }
-[class^="searchResultsWrap-"] > [class^="scroller-"] > [class^="container-"] > div {
+[class^="searchResultsWrap_"] > [class^="scroller_"] > [class^="container_"] > div {
     margin-top: 8px;
     padding-bottom: 6px;
 }

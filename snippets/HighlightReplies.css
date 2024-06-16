@@ -1,9 +1,9 @@
 /* Background */
-[class^="message-"][class*="hasReply-"]:not(:has([class^="avatar-"][src*="user-id"])):has([class^="replyAvatar-"][src*="user-id"]) {
+[class^="message_"][class*="hasReply_"]:not(:has([class^="avatar_"][src*="user-id"])):has([class^="replyAvatar_"][src*="user-id"]) {
     background-color: var(--background-mentioned);
 }
 /* That little thing on the left of the message */
-[class^="message-"][class*="hasReply-"]:not(:has([class^="avatar-"][src*="user-id"])):has([class^="replyAvatar-"][src*="user-id"])::before {
+[class^="message_"][class*="hasReply_"]:not(:has([class^="avatar_"][src*="user-id"])):has([class^="replyAvatar_"][src*="user-id"])::before {
     background-color: var(--info-warning-foreground) !important;
     content: "";
     position: absolute;

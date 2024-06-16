@@ -1,36 +1,36 @@
-[class^="message-"] div[aria-label*="super" i]:has([class^="icon-"]),
-[class^="reactButtons-"] > div[aria-label*="super" i],
-[class^="reactionInner-"] [class^="effectsWrapper-"],
-[class^="burstReactionTooltipPrompt-"],
-[class^="burstEmojiSection-"],
-[class*="colorPremiumGradient-"],
+[class^="message_"] div[aria-label*="super" i]:has([class^="icon_"]),
+[class^="reactButtons_"] > div[aria-label*="super" i],
+[class^="reactionInner_"] [class^="effectsWrapper_"],
+[class^="burstReactionTooltipPrompt_"],
+[class^="burstEmojiSection_"],
+[class*="colorPremiumGradient_"],
 button[id="super-reaction-picker-tab"],
-[class^="burstGlow-"] {
+[class^="burstGlow_"] {
   display: none;
 }
 /* makes super reactions not disappear on hover */
-[class*="hideEmoji-"] {
+[class*="hideEmoji_"] {
   opacity: 1;
 }
 /* removes stuff from emoji hover popup */
-[class*="burstReactionTooltipSpacer-"] {
+[class*="burstReactionTooltipSpacer_"] {
   border: none !important;
   padding: 0px;
   margin: 0px;
 }
 /* makes background color the same as normal reactions in "show reactions" tab*/
-[class^="reactionSelected-"] {
+[class^="reactionSelected_"] {
   background: var(--background-tertiary) !important;
 }
 /* disables clicking */
-[class^="reactionInner-"]:is([aria-label*=" super " i]) {
+[class^="reactionInner_"]:is([aria-label*=" super " i]) {
   pointer-events: none;
 }
-/* adds background color to super reactions */
-[class^="reaction-"]:has(> [class^="reactionInner-"]:is([aria-label*=" super " i])) {
-  background: linear-gradient(45deg, #8447c6 0%, #ab5d8b 100%) !important;
+/* removes background color from super reactions */
+[class^="reaction_"]:is(:has(> [class^="reactionInner_"]), [class^="reactionInner_"]):not([class*="reactionMe_"]) {
+  background: var(--background-secondary) !important;
 }
 /* removes shake animation */
-[class*="shakeReaction-"] {
+[class*="shakeReaction_"] {
   animation: none !important;
 }

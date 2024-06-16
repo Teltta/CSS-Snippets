@@ -1,7 +1,7 @@
-.message-2CShn3.hasReply-2Cr4KE:not(:has(.avatar-2e8lTP[src*="user-id"])):has(.replyAvatar-sHd2sU[src*="user-id"]) {
+.message_ccca67.hasReply__602e2:not(:has(.avatar__08316[src*="user-id"])):has(.replyAvatar__4ba85[src*="user-id"]) {
     background-color: var(--background-mentioned);
 }
-.message-2CShn3.hasReply-2Cr4KE:not(:has(.avatar-2e8lTP[src*="user-id"])):has(.replyAvatar-sHd2sU[src*="user-id"])::before {
+.message_ccca67.hasReply__602e2:not(:has(.avatar__08316[src*="user-id"])):has(.replyAvatar__4ba85[src*="user-id"])::before {
     background-color: var(--info-warning-foreground) !important;
     content: "";
     position: absolute;

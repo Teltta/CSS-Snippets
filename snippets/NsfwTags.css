@@ -1,5 +1,5 @@
-[class^="chat-"]>section[class^="title-"]:has([class^="icon-"]>path[d^="M19.8914"]) [class^="titleWrapper-"]>[class*="title-"]::before,
-[class^="containerDefault-"]:has([class^="icon-"]>path[d^="M19.891"]):not(:hover, [class*="selected-"]) [class^="linkTop-"]>[class^="children-"]::before {
+[class^="chat_"]>[class*="subtitleContainer_"]>section[class^="title_"]:has([class^="icon_"]>path[d^="M18.09"]) [class^="titleWrapper_"]>[class*="title_"]::before,
+[class^="containerDefault_"]:has([class^="icon_"]>path[d^="M18.09"]):not(:hover, [class*="selected_"]) [class^="linkTop_"]>[class^="children_"]::before {
     position: relative;
     content: "NSFW";
     background-color: var(--red-400);
